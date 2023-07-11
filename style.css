@@ -80,12 +80,13 @@ nav{
 	margin-top: 20px;
 }
 .container{
-	height: 100%;
-    width: 100%;
+	display: fixed;
+	height: 100vh;
+   	width: 100%;
 	max-width: 100%;
 	background-color: maroon;
-    display: flex;
-    flex-wrap: wrap;
+        display: flex;
+        flex-wrap: wrap;
 	padding: 15px;
 	box-sizing: border-box;
 }
